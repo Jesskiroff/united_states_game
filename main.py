@@ -1,3 +1,5 @@
+# rbps ?
+
 import turtle
 screen = turtle.Screen()
 
@@ -7,11 +9,11 @@ image = "blank_states_img.gif"
 screen.addshape(image)
 turtle.shape(image)
 
-def get_coor_mouse_click(x,y):
-    print(x,y)
+# def get_coor_mouse_click(x,y):
+#     print(x,y)
 
-turtle_coodinates = turtle.onscreenclick(get_coor_mouse_click)
-turtle.mainloop()
+# turtle_coodinates = turtle.onscreenclick(get_coor_mouse_click)
+# turtle.mainloop()
 
-
-# screen.exitonclick()
+answer_state = screen.textinput(title = "Guess The State!", prompt = "What is another state?" )
+screen.exitonclick()
