@@ -7,4 +7,11 @@ image = "blank_states_img.gif"
 screen.addshape(image)
 turtle.shape(image)
 
-screen.exitonclick()
+def get_coor_mouse_click(x,y):
+    print(x,y)
+
+turtle_coodinates = turtle.onscreenclick(get_coor_mouse_click)
+turtle.mainloop()
+
+
+# screen.exitonclick()
